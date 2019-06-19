@@ -1,0 +1,49 @@
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.ProductManagement.resources
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.Properties.Resources.resources
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.csproj.GenerateResource.Cache
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\bin\Debug\PointOfSale.exe.config
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\bin\Debug\PointOfSale.exe
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\bin\Debug\PointOfSale.pdb
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.exe
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.pdb
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.UserControls.ProductManage.insert_Clicked_UserControl.resources
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.UserControls.ProductManage.searchClicked_UserControl.resources
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.UserControls.ProductManage.ucMainProductManagement.resources
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.UserControls.ProductManage.ucMainProductCategory.resources
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.UserControls.ProductManage.ProductListing_UserControl.resources
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.ListViewClicked.resources
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.UserControls.ProductManage.ucProductCategoryInsert.resources
+C:\Users\Samad Ali\Desktop\Shop Proj\PointOfSale\PointOfSale\bin\Debug\PointOfSale.exe.config
+C:\Users\Samad Ali\Desktop\Shop Proj\PointOfSale\PointOfSale\obj\Debug\PointOfSale.exe
+C:\Users\Samad Ali\Desktop\Shop Proj\PointOfSale\PointOfSale\obj\Debug\PointOfSale.pdb
+C:\Users\Samad Ali\Desktop\Shop Proj\PointOfSale\PointOfSale\bin\Debug\PointOfSale.exe
+C:\Users\Samad Ali\Desktop\Shop Proj\PointOfSale\PointOfSale\bin\Debug\PointOfSale.pdb
+C:\Users\Samad Ali\Desktop\Shop Proj\PointOfSale\PointOfSale\obj\Debug\PointOfSale.csprojResolveAssemblyReference.cache
+C:\Users\Samad Ali\Desktop\Shop Proj\PointOfSale\PointOfSale\obj\Debug\PointOfSale.ListViewClicked.resources
+C:\Users\Samad Ali\Desktop\Shop Proj\PointOfSale\PointOfSale\obj\Debug\PointOfSale.ProductManagement.resources
+C:\Users\Samad Ali\Desktop\Shop Proj\PointOfSale\PointOfSale\obj\Debug\PointOfSale.Properties.Resources.resources
+C:\Users\Samad Ali\Desktop\Shop Proj\PointOfSale\PointOfSale\obj\Debug\PointOfSale.UserControls.ProductManage.insert_Clicked_UserControl.resources
+C:\Users\Samad Ali\Desktop\Shop Proj\PointOfSale\PointOfSale\obj\Debug\PointOfSale.UserControls.ProductManage.ProductListing_UserControl.resources
+C:\Users\Samad Ali\Desktop\Shop Proj\PointOfSale\PointOfSale\obj\Debug\PointOfSale.UserControls.ProductManage.searchClicked_UserControl.resources
+C:\Users\Samad Ali\Desktop\Shop Proj\PointOfSale\PointOfSale\obj\Debug\PointOfSale.UserControls.ProductManage.ucMainProductCategory.resources
+C:\Users\Samad Ali\Desktop\Shop Proj\PointOfSale\PointOfSale\obj\Debug\PointOfSale.UserControls.ProductManage.ucMainProductManagement.resources
+C:\Users\Samad Ali\Desktop\Shop Proj\PointOfSale\PointOfSale\obj\Debug\PointOfSale.UserControls.ProductManage.ucProductCategoryInsert.resources
+C:\Users\Samad Ali\Desktop\Shop Proj\PointOfSale\PointOfSale\obj\Debug\PointOfSale.UserControls.ProductManage.ucProductCategorySearch.resources
+C:\Users\Samad Ali\Desktop\Shop Proj\PointOfSale\PointOfSale\obj\Debug\PointOfSale.csproj.GenerateResource.Cache
+C:\Users\Samad Ali\Desktop\Shop Proj\PointOfSale\PointOfSale\obj\Debug\PointOfSale.UserControls.BarCodeManage.ucBarCodeMain.resources
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.UserControls.BarCodeManage.BarCodeGenerator.resources
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.UserControls.BarCodeManage.ucBarCodeMain.resources
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.UserControls.ProductManage.ucProductCSearch.resources
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.UserControls.ProductManage.pCategoryUpdate.resources
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.UserControls.ProductManage.ViewProductVariants.resources
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.UserControls.ProductManage.updateProductVariants.resources
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.csprojResolveAssemblyReference.cache
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.Menu.resources
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.InventoryManagement.resources
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.UserControls.OrderManage.ucMainOrderManagement.resources
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.UserControls.OrderManage.OrderListViewClicked.resources
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.UserControls.OrderManage.UserControlInsert.resources
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.UserControls.OrderManage.UserControlSearch.resources
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.UserControls.OrderManage.AddOrderProducts.resources
+C:\Users\Samad Ali\Documents\Visual Studio 2015\Projects\PointOfSale\PointOfSale\obj\Debug\PointOfSale.UserControls.OrderManage.ViewOrderProducts.resources

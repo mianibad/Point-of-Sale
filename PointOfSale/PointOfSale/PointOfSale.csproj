@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B7C8419B-E0F8-4C0E-BCA6-4093AC76345B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PointOfSale</RootNamespace>
+    <AssemblyName>PointOfSale</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Zen.Barcode.Core, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b5ae55aa76d2d9de, processorArchitecture=MSIL">
+      <HintPath>..\packages\Zen.Barcode.Rendering.Framework.3.1.10729.1\lib\Zen.Barcode.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="InventoryManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryManagement.Designer.cs">
+      <DependentUpon>InventoryManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POSBLL\ProductVariantsBLL.cs" />
+    <Compile Include="POSDAL\ProductVariantsDAL.cs" />
+    <Compile Include="POSDTO\ProductVariantsDTO.cs" />
+    <Compile Include="UserControls\OrderManage\AddOrderProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControls\OrderManage\AddOrderProducts.Designer.cs">
+      <DependentUpon>AddOrderProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\OrderManage\OrderListViewClicked.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControls\OrderManage\OrderListViewClicked.Designer.cs">
+      <DependentUpon>OrderListViewClicked.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\OrderManage\ucMainOrderManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\OrderManage\ucMainOrderManagement.Designer.cs">
+      <DependentUpon>ucMainOrderManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\OrderManage\UserControlInsert.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\OrderManage\UserControlInsert.Designer.cs">
+      <DependentUpon>UserControlInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\OrderManage\UserControlSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\OrderManage\UserControlSearch.Designer.cs">
+      <DependentUpon>UserControlSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\OrderManage\ViewOrderProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControls\OrderManage\ViewOrderProducts.Designer.cs">
+      <DependentUpon>ViewOrderProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ProductManage\ListViewClicked.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControls\ProductManage\ListViewClicked.Designer.cs">
+      <DependentUpon>ListViewClicked.cs</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="POSBLL\OrderBLL.cs" />
+    <Compile Include="POSBLL\OrderProductBLL.cs" />
+    <Compile Include="POSBLL\ProductCategoryBLL.cs" />
+    <Compile Include="POSBLL\ProductManagementBLL.cs" />
+    <Compile Include="POSDAL\OrderDAL.cs" />
+    <Compile Include="POSDAL\OrderProductDAL.cs" />
+    <Compile Include="POSDAL\ProductCategoryDAL.cs" />
+    <Compile Include="POSDAL\ProductManagementDAL.cs" />
+    <Compile Include="POSDTO\OrderDTO.cs" />
+    <Compile Include="POSDTO\OrderProductDTO.cs" />
+    <Compile Include="POSDTO\PCategoryDTO.cs" />
+    <Compile Include="POSDTO\ProductDTO.cs" />
+    <Compile Include="ProductManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductManagement.Designer.cs">
+      <DependentUpon>ProductManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\BarCodeManage\BarCodeGenerator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControls\BarCodeManage\BarCodeGenerator.Designer.cs">
+      <DependentUpon>BarCodeGenerator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\BarCodeManage\ucBarCodeMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\BarCodeManage\ucBarCodeMain.Designer.cs">
+      <DependentUpon>ucBarCodeMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ProductManage\insert_Clicked_UserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ProductManage\insert_Clicked_UserControl.Designer.cs">
+      <DependentUpon>insert_Clicked_UserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ProductManage\pCategoryUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControls\ProductManage\pCategoryUpdate.Designer.cs">
+      <DependentUpon>pCategoryUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ProductManage\ProductListing_UserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ProductManage\ProductListing_UserControl.Designer.cs">
+      <DependentUpon>ProductListing_UserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ProductManage\searchClicked_UserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ProductManage\searchClicked_UserControl.Designer.cs">
+      <DependentUpon>searchClicked_UserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ProductManage\ucMainProductCategory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ProductManage\ucMainProductCategory.Designer.cs">
+      <DependentUpon>ucMainProductCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ProductManage\ucMainProductManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ProductManage\ucMainProductManagement.Designer.cs">
+      <DependentUpon>ucMainProductManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ProductManage\ucProductCategoryInsert.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ProductManage\ucProductCategoryInsert.Designer.cs">
+      <DependentUpon>ucProductCategoryInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ProductManage\ucProductCSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ProductManage\ucProductCSearch.Designer.cs">
+      <DependentUpon>ucProductCSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ProductManage\updateProductVariants.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControls\ProductManage\updateProductVariants.Designer.cs">
+      <DependentUpon>updateProductVariants.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ProductManage\ViewProductVariants.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControls\ProductManage\ViewProductVariants.Designer.cs">
+      <DependentUpon>ViewProductVariants.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="InventoryManagement.resx">
+      <DependentUpon>InventoryManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\OrderManage\AddOrderProducts.resx">
+      <DependentUpon>AddOrderProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\OrderManage\OrderListViewClicked.resx">
+      <DependentUpon>OrderListViewClicked.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\OrderManage\ucMainOrderManagement.resx">
+      <DependentUpon>ucMainOrderManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\OrderManage\UserControlInsert.resx">
+      <DependentUpon>UserControlInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\OrderManage\UserControlSearch.resx">
+      <DependentUpon>UserControlSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\OrderManage\ViewOrderProducts.resx">
+      <DependentUpon>ViewOrderProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ProductManage\ListViewClicked.resx">
+      <DependentUpon>ListViewClicked.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductManagement.resx">
+      <DependentUpon>ProductManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserControls\BarCodeManage\BarCodeGenerator.resx">
+      <DependentUpon>BarCodeGenerator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\BarCodeManage\ucBarCodeMain.resx">
+      <DependentUpon>ucBarCodeMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ProductManage\insert_Clicked_UserControl.resx">
+      <DependentUpon>insert_Clicked_UserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ProductManage\pCategoryUpdate.resx">
+      <DependentUpon>pCategoryUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ProductManage\ProductListing_UserControl.resx">
+      <DependentUpon>ProductListing_UserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ProductManage\searchClicked_UserControl.resx">
+      <DependentUpon>searchClicked_UserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ProductManage\ucMainProductCategory.resx">
+      <DependentUpon>ucMainProductCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ProductManage\ucMainProductManagement.resx">
+      <DependentUpon>ucMainProductManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ProductManage\ucProductCategoryInsert.resx">
+      <DependentUpon>ucProductCategoryInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ProductManage\ucProductCSearch.resx">
+      <DependentUpon>ucProductCSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ProductManage\updateProductVariants.resx">
+      <DependentUpon>updateProductVariants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ProductManage\ViewProductVariants.resx">
+      <DependentUpon>ViewProductVariants.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="bin\Debug\PointOfSale.exe.config" />
+    <None Include="bin\Debug\PointOfSale.vshost.exe.config" />
+    <None Include="bin\Debug\PointOfSale.vshost.exe.manifest" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crossicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuicon.png" />
+    <None Include="Resources\minimizeicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\listicons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bargenicons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barprinticons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backicons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\categoryicons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\MetroFramework.Design.dll" />
+    <Content Include="bin\Debug\MetroFramework.dll" />
+    <Content Include="bin\Debug\MetroFramework.Fonts.dll" />
+    <Content Include="bin\Debug\PointOfSale.exe" />
+    <Content Include="bin\Debug\PointOfSale.pdb" />
+    <Content Include="bin\Debug\PointOfSale.vshost.exe" />
+    <None Include="Resources\insert.png" />
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
